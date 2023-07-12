@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="please_input_dialog_height">请输入高度</string>
+    <string name="btn_right">确 定</string>
+</resources>
