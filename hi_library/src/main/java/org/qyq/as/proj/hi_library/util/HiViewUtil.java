@@ -26,7 +26,7 @@ public class HiViewUtil {
      * 获取指定类型的子View
      *
      * @param group viewGroup
-     * @param cls   如：RecyclerView。class
+     * @param cls   子View的类型 如：RecyclerView。class
      * @param <T>   指定类型
      * @return 指定类型的view
      */
@@ -34,6 +34,7 @@ public class HiViewUtil {
         if (group == null) {
             return null;
         }
+        //双端队列
         Deque<View> deque = new ArrayDeque<>();
         deque.add(group);
         while (!deque.isEmpty()) {
